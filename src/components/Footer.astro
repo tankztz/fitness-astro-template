@@ -4,20 +4,20 @@ interface Props {
 }
 
 const { callToAction } = Astro.props;
-const imageURL = "gym-ropes.jpg";
+const imageURL = "professional_team.jpg";
 const bgStyle = { backgroundImage: `url('/images/${imageURL}')` };
 const content = [
   {
     heading: "Mailing Address",
-    info: "123 Anywhere St, Any City, ST 34565",
+    info: "11 mosque street #02-01",
   },
   {
     heading: "Email Address",
-    info: "hello@reallygreatsite.com",
+    info: "viralasia9@gmail.com",
   },
   {
     heading: "Phone Number",
-    info: "(123) 456-7890",
+    info: "(+65) 8611 1941",
   },
 ];
 ---
@@ -28,11 +28,11 @@ const content = [
 >
   <div class="mx-auto max-w-screen-xl">
     <h1
-      class="font-extrabold text-5xl yellowText tracking-wide uppercase italic p-36 max-w-xl"
+      class="font-extrabold text-5xl purpleText tracking-wide uppercase italic p-36 max-w-xl"
     >
       {callToAction}
     </h1>
-    <div class="yellowBG grid grid-cols-1 md:grid-cols-3">
+    <div class="purpleBG grid grid-cols-1 md:grid-cols-3">
       {
         content.map((item) => (
           <div class="p-12">
